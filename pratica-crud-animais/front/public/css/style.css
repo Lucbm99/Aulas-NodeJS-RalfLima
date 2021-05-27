@@ -1,0 +1,10 @@
+form {
+    width: 50%;
+    text-align: center;
+    margin: 30px auto;
+    border: 1px solid #7D2CAB;
+    padding: 10px;
+}
+input {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,34 @@
+{{!-- formulário --}}
+
+<form action="">
+   <label>Nome do animal:</label>
+   <input type="text" name="nome_animal" placeholder="Digite o nome do animal.." class="form-control">
+
+   <label>Quantidade de patas:</label> 
+   <input type="number" name="patas" placeholder="Digite a quantidade de patas..." class="form-control">
+
+   <label>Classe (mamífero, anfíbio): </label>
+   <input type="text" name="classe_animal" placeholder="Digite a classe do animal..." class="form-control">
+
+   <input type="submit" value="Cadastrar" class="btn btn-primary">
+
+</form>
+
+<table class="table table-dark table-striped table-hover">
+    <thead>
+        <tr>
+            <th>Nome do animal</th>
+            <th>Quantidade de patas</th>
+            <th>Classe</th>
+            <th>Operações</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Cachorro</td>
+            <td>4</td>
+            <td>Mamífero</td>
+            <td><a href="#">Selecionar</a></td>
+        </tr>
+    </tbody>
+</table>
