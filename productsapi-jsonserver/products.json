@@ -1,0 +1,28 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Farinha de trigo",
+      "preco": 2.88,
+      "marca": "Dona Benta"
+    },
+    {
+      "id": 2,
+      "nome": "Arroz",
+      "preco": 15.44,
+      "marca": "Broto Legal"
+    },
+    {
+      "id": 3,
+      "nome": "Feijão",
+      "preco": 8.66,
+      "marca": "Camil"
+    },
+    {
+      "name": "Farinha de milho",
+      "preco": 5.99,
+      "marca": "Yoki",
+      "id": 4
+    }
+  ]
+}
