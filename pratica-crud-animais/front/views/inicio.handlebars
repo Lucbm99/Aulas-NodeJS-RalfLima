@@ -1,6 +1,6 @@
 {{!-- formulário --}}
 
-<form action="">
+<form action="/cadastrar" method="POST">
    <label>Nome do animal:</label>
    <input type="text" name="nome_animal" placeholder="Digite o nome do animal.." class="form-control">
 
@@ -24,11 +24,14 @@
         </tr>
     </thead>
     <tbody>
+
+        {{#each dados}}
         <tr>
-            <td>Cachorro</td>
-            <td>4</td>
-            <td>Mamífero</td>
-            <td><a href="#">Selecionar</a></td>
+            <td>{{nome}}</td>
+            <td>{{patas}}</td>
+            <td>{{classe}}</td>
+            <td><a href="selecionar/{{id}}">Selecionar</a></td>
         </tr>
+        {{/each}}
     </tbody>
 </table>

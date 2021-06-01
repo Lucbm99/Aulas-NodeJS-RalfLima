@@ -1,0 +1,20 @@
+{{!-- formulário --}}
+
+<form action="/editar" method="POST">
+
+   <input type="hidden" value={{dados.id}} name="id" />
+
+   <label>Nome do animal:</label>
+   <input type="text" name="nome_animal" placeholder="Digite o nome do animal.." value={{dados.nome}} class="form-control"><br/>
+
+   <label>Quantidade de patas:</label> 
+   <input type="number" name="patas" placeholder="Digite a quantidade de patas..." value={{dados.patas}} class="form-control">
+
+   <label>Classe (mamífero, anfíbio): </label>
+   <input type="text" value={{dados.classe}} name="classe_animal" placeholder="Digite a classe do animal..." class="form-control">
+
+   <input type="submit" value="Editar" class="btn btn-warning btnEditar">
+   
+   <a href="/remover/{{dados.id}}" class="btn btn-danger">Remover</a>
+   <a href="/" class="btn btn-secondary">Cancelar</a>
+</form>

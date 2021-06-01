@@ -1,34 +1,34 @@
 {
-    "animais": [
-      {
-        "id": 1,
-        "nome": "Cachorro",
-        "quantidade_patas": 4,
-        "classe": "Mamifero"
-      },
-      {
-        "id": 2,
-        "nome": "Pirarara",
-        "quantidade_patas": 0,
-        "classe": "Peixes"
-      },
-      {
-        "id": 3,
-        "nome": "Aranha",
-        "quantidade_patas": 8,
-        "classe": "Insetos - aracnídeos"
-      },
-      {
-        "nome": "Rinoceronte",
-        "quantidade_patas": 4,
-        "classe": "mamífero",
-        "id": 4
-      },
-      {
-        "id": 5,
-        "nome": "Jacaré",
-        "quantidade_patas": 4,
-        "classe": "Reptéis"
-      }
-    ]
-  }
+  "animais": [
+    {
+      "id": 2,
+      "nome": "Pirarara",
+      "patas": 0,
+      "classe": "Peixes"
+    },
+    {
+      "id": 3,
+      "nome": "Aranha",
+      "patas": 8,
+      "classe": "Insetos - aracnídeos"
+    },
+    {
+      "nome": "Golfinho",
+      "patas": "0",
+      "classe": "Peixe",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "nome": "Jacaré",
+      "patas": 4,
+      "classe": "Reptéis"
+    },
+    {
+      "nome": "Girafa",
+      "patas": "4",
+      "classe": "Mamífero",
+      "id": 6
+    }
+  ]
+}
