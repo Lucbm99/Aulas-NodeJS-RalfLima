@@ -1,0 +1,25 @@
+{
+  "carros": [
+    {
+      "id": 1,
+      "nome": "Gol",
+      "marca": "Volkswagen",
+      "quantidadePortas": 2,
+      "combustivel": "Gasolina"
+    },
+    {
+      "id": 2,
+      "nome": "Mille",
+      "marca": "Fiat",
+      "quantidadePortas": 4,
+      "combustivel": "Etanol"
+    },
+    {
+      "id": 4,
+      "nome": "Meriva",
+      "marca": "Chevrolet",
+      "quantidadePortas": 2,
+      "combustivel": "Etanol"
+    }
+  ]
+}
