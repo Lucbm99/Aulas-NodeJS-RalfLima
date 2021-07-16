@@ -1,0 +1,16 @@
+<h4>Página HOME</h4>
+
+{{#if isFemale}}
+    <h1>Bem vinda</h1>
+{{else}}
+    <h1>Bem vindo</h1>
+{{/if}}
+
+
+{{#each dados}}
+    <table>
+        <tr>
+            <td>Nome: {{nome}} - Tipo: {{tipo}}</td>
+        </tr>
+    </table>
+{{/each}}
